@@ -22,7 +22,6 @@
           <div class="center">
             <v-img
               :aspect-ratio="16 / 9"
-              :width="width"
               src="https://cdn.vuetifyjs.com/images/parallax/material.jpg"
             ></v-img>
             <br />
@@ -38,45 +37,9 @@
 
       <!-- Clients -->
       <v-row>
-        <v-col sm="4" md="2">
+        <v-col cols="6" md="2" sm="4" s="4" v-for="n in 6" :key="n">
           <v-img
             :aspect-ratio="16 / 9"
-            :width="width"
-            src="https://cdn.vuetifyjs.com/images/parallax/material.jpg"
-          ></v-img
-        ></v-col>
-        <v-col sm="4" md="2">
-          <v-img
-            :aspect-ratio="16 / 9"
-            :width="width"
-            src="https://cdn.vuetifyjs.com/images/parallax/material.jpg"
-          ></v-img
-        ></v-col>
-        <v-col sm="4" md="2">
-          <v-img
-            :aspect-ratio="16 / 9"
-            :width="width"
-            src="https://cdn.vuetifyjs.com/images/parallax/material.jpg"
-          ></v-img
-        ></v-col>
-        <v-col sm="4" md="2">
-          <v-img
-            :aspect-ratio="16 / 9"
-            :width="width"
-            src="https://cdn.vuetifyjs.com/images/parallax/material.jpg"
-          ></v-img
-        ></v-col>
-        <v-col sm="4" md="2">
-          <v-img
-            :aspect-ratio="16 / 9"
-            :width="width"
-            src="https://cdn.vuetifyjs.com/images/parallax/material.jpg"
-          ></v-img
-        ></v-col>
-        <v-col sm="4" md="2">
-          <v-img
-            :aspect-ratio="16 / 9"
-            :width="width"
             src="https://cdn.vuetifyjs.com/images/parallax/material.jpg"
           ></v-img
         ></v-col>
@@ -88,7 +51,6 @@
           <div>
             <v-img
               :aspect-ratio="16 / 6"
-              :width="width"
               src="https://cdn.vuetifyjs.com/images/parallax/material.jpg"
             >
               <v-overlay absolute>
@@ -107,45 +69,9 @@
 
       <!-- Clients -->
       <v-row>
-        <v-col sm="4" md="2">
+        <v-col cols="6" md="2" sm="4" s="4" v-for="n in 6" :key="n">
           <v-img
             :aspect-ratio="16 / 9"
-            :width="width"
-            src="https://cdn.vuetifyjs.com/images/parallax/material.jpg"
-          ></v-img
-        ></v-col>
-        <v-col sm="4" md="2">
-          <v-img
-            :aspect-ratio="16 / 9"
-            :width="width"
-            src="https://cdn.vuetifyjs.com/images/parallax/material.jpg"
-          ></v-img
-        ></v-col>
-        <v-col sm="4" md="2">
-          <v-img
-            :aspect-ratio="16 / 9"
-            :width="width"
-            src="https://cdn.vuetifyjs.com/images/parallax/material.jpg"
-          ></v-img
-        ></v-col>
-        <v-col sm="4" md="2">
-          <v-img
-            :aspect-ratio="16 / 9"
-            :width="width"
-            src="https://cdn.vuetifyjs.com/images/parallax/material.jpg"
-          ></v-img
-        ></v-col>
-        <v-col sm="4" md="2">
-          <v-img
-            :aspect-ratio="16 / 9"
-            :width="width"
-            src="https://cdn.vuetifyjs.com/images/parallax/material.jpg"
-          ></v-img
-        ></v-col>
-        <v-col sm="4" md="2">
-          <v-img
-            :aspect-ratio="16 / 9"
-            :width="width"
             src="https://cdn.vuetifyjs.com/images/parallax/material.jpg"
           ></v-img
         ></v-col>
@@ -156,15 +82,14 @@
       <v-row class="ma-10"></v-row>
 
       <!-- products -->
-      <v-row class="display">
-        <v-col md="6" sm="12">
+      <v-row class="display" justify="center">
+        <v-col md="4" sm="6">
           <v-img
-            :aspect-ratio="9 / 11"
-            :width="width"
+            :aspect-ratio="9 / 10"
             src="https://cdn.vuetifyjs.com/images/parallax/material.jpg"
           ></v-img
         ></v-col>
-        <v-col md="6" sm="12" align-self="center">
+        <v-col md="4" sm="6" align-self="center">
           <h1>SeekXR Platform</h1>
           <h2>Enterprise 3D Asset Management</h2>
           <p>
@@ -181,6 +106,7 @@
 
 <script>
 export default {
+  name: "test-view",
   data: () => ({
     alignments: ["start", "center", "end"],
   }),
