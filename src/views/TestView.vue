@@ -1,0 +1,194 @@
+<template>
+  <div class="about">
+    <v-container fluid class="container">
+      <!-- Spacer -->
+      <v-row class="ma-10"></v-row>
+      <v-row class="ma-10"></v-row>
+
+      <!-- mast head -->
+      <v-row class="px-16">
+        <v-col sm="12" md="7" align-self="center">
+          <div class="pa-2">
+            <h1>Empower Reality</h1>
+            Seek is different. In our world there are no apps needed. There is
+            seamless integration with every device, channel and metaverse. There
+            are no walls between physical and digital.
+            <br />
+            <br />
+            <v-btn elevation="3">Book a Demo</v-btn>
+          </div>
+        </v-col>
+        <v-col cols="12" sm="12" md="5">
+          <div class="center">
+            <v-img
+              :aspect-ratio="16 / 9"
+              :width="width"
+              src="https://cdn.vuetifyjs.com/images/parallax/material.jpg"
+            ></v-img>
+            <br />
+            <v-btn elevation="3" class="center">See in Your Space</v-btn>
+          </div>
+        </v-col>
+      </v-row>
+
+      <!-- Spacer -->
+      <v-row class="ma-10"></v-row>
+      <v-row class="ma-10"></v-row>
+      <v-row class="ma-10"></v-row>
+
+      <!-- Clients -->
+      <v-row>
+        <v-col sm="4" md="2">
+          <v-img
+            :aspect-ratio="16 / 9"
+            :width="width"
+            src="https://cdn.vuetifyjs.com/images/parallax/material.jpg"
+          ></v-img
+        ></v-col>
+        <v-col sm="4" md="2">
+          <v-img
+            :aspect-ratio="16 / 9"
+            :width="width"
+            src="https://cdn.vuetifyjs.com/images/parallax/material.jpg"
+          ></v-img
+        ></v-col>
+        <v-col sm="4" md="2">
+          <v-img
+            :aspect-ratio="16 / 9"
+            :width="width"
+            src="https://cdn.vuetifyjs.com/images/parallax/material.jpg"
+          ></v-img
+        ></v-col>
+        <v-col sm="4" md="2">
+          <v-img
+            :aspect-ratio="16 / 9"
+            :width="width"
+            src="https://cdn.vuetifyjs.com/images/parallax/material.jpg"
+          ></v-img
+        ></v-col>
+        <v-col sm="4" md="2">
+          <v-img
+            :aspect-ratio="16 / 9"
+            :width="width"
+            src="https://cdn.vuetifyjs.com/images/parallax/material.jpg"
+          ></v-img
+        ></v-col>
+        <v-col sm="4" md="2">
+          <v-img
+            :aspect-ratio="16 / 9"
+            :width="width"
+            src="https://cdn.vuetifyjs.com/images/parallax/material.jpg"
+          ></v-img
+        ></v-col>
+      </v-row>
+
+      <!-- Facts -->
+      <v-row class="mt-16">
+        <v-col sm="12" md="12" no-gutters>
+          <div>
+            <v-img
+              :aspect-ratio="16 / 6"
+              :width="width"
+              src="https://cdn.vuetifyjs.com/images/parallax/material.jpg"
+            >
+              <v-overlay absolute>
+                <h1 class="text-h1 text-center">
+                  Inscrease Awesomeness by <br />
+                  256%
+                </h1>
+              </v-overlay>
+            </v-img>
+          </div>
+        </v-col>
+      </v-row>
+
+      <!-- Spacer -->
+      <v-row class="ma-10"></v-row>
+
+      <!-- Clients -->
+      <v-row>
+        <v-col sm="4" md="2">
+          <v-img
+            :aspect-ratio="16 / 9"
+            :width="width"
+            src="https://cdn.vuetifyjs.com/images/parallax/material.jpg"
+          ></v-img
+        ></v-col>
+        <v-col sm="4" md="2">
+          <v-img
+            :aspect-ratio="16 / 9"
+            :width="width"
+            src="https://cdn.vuetifyjs.com/images/parallax/material.jpg"
+          ></v-img
+        ></v-col>
+        <v-col sm="4" md="2">
+          <v-img
+            :aspect-ratio="16 / 9"
+            :width="width"
+            src="https://cdn.vuetifyjs.com/images/parallax/material.jpg"
+          ></v-img
+        ></v-col>
+        <v-col sm="4" md="2">
+          <v-img
+            :aspect-ratio="16 / 9"
+            :width="width"
+            src="https://cdn.vuetifyjs.com/images/parallax/material.jpg"
+          ></v-img
+        ></v-col>
+        <v-col sm="4" md="2">
+          <v-img
+            :aspect-ratio="16 / 9"
+            :width="width"
+            src="https://cdn.vuetifyjs.com/images/parallax/material.jpg"
+          ></v-img
+        ></v-col>
+        <v-col sm="4" md="2">
+          <v-img
+            :aspect-ratio="16 / 9"
+            :width="width"
+            src="https://cdn.vuetifyjs.com/images/parallax/material.jpg"
+          ></v-img
+        ></v-col>
+      </v-row>
+
+      <!-- Spacer -->
+      <v-row class="ma-10"></v-row>
+      <v-row class="ma-10"></v-row>
+
+      <!-- products -->
+      <v-row class="display">
+        <v-col md="6" sm="12">
+          <v-img
+            :aspect-ratio="9 / 11"
+            :width="width"
+            src="https://cdn.vuetifyjs.com/images/parallax/material.jpg"
+          ></v-img
+        ></v-col>
+        <v-col md="6" sm="12" align-self="center">
+          <h1>SeekXR Platform</h1>
+          <h2>Enterprise 3D Asset Management</h2>
+          <p>
+            Businesses of all sizes require a place for their 3D models to be
+            managed, have their quality controlled, and verified for channel
+            deployment. With Seek's core platform, controlling 3D models has
+            never been easier.
+          </p>
+        </v-col>
+      </v-row>
+    </v-container>
+  </div>
+</template>
+
+<script>
+export default {
+  data: () => ({
+    alignments: ["start", "center", "end"],
+  }),
+};
+</script>
+
+<style scoped>
+.center {
+  text-align: center;
+}
+</style>

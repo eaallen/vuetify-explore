@@ -1,5 +1,5 @@
 <template>
   <div class="about">
-    <h1>This is an about page</h1>
+    <v-card elevation="2"> hello world </v-card>
   </div>
 </template>
