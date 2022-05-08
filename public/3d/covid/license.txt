@@ -1,0 +1,8 @@
+Model Information:
+* title:	COVID-19 Virus [4K]
+* source:	https://sketchfab.com/3d-models/covid-19-virus-4k-ecd891902d0646e7b3ef6c6cae30b562
+* author:	Andrej Grave (https://sketchfab.com/andrej.grave)
+
+Model License:
+* license type:	SKETCHFAB Standard (https://sketchfab.com/licenses)
+* requirements:	Under basic restrictions, use worldwide, on all types of media, commercially or not, and in all types of derivative works

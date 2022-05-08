@@ -2,14 +2,14 @@
   <div class="about">
     <v-container fluid class="container">
       <!-- Spacer -->
-      <v-row class="ma-10"></v-row>
-      <v-row class="ma-10"></v-row>
+      <v-row class="ma-md-10"></v-row>
+      <v-row class="ma-md-10"></v-row>
 
       <!-- mast head -->
-      <v-row class="px-16">
-        <v-col sm="12" md="7" align-self="center">
+      <v-row class="px-md-16 px-sm-16" justify="center">
+        <v-col sm="12" md="5" align-self="center">
           <div class="pa-2">
-            <h1>Empower Reality</h1>
+            <h1 class="text-h2 pb-10">Empower Reality</h1>
             Seek is different. In our world there are no apps needed. There is
             seamless integration with every device, channel and metaverse. There
             are no walls between physical and digital.
@@ -18,14 +18,14 @@
             <v-btn elevation="3">Book a Demo</v-btn>
           </div>
         </v-col>
-        <v-col cols="12" sm="12" md="5">
+        <v-col cols="12" sm="12" md="4">
           <div class="center">
             <v-img
-              :aspect-ratio="16 / 9"
+              :aspect-ratio="1"
               src="https://cdn.vuetifyjs.com/images/parallax/material.jpg"
             ></v-img>
             <br />
-            <v-btn elevation="3" class="center">See in Your Space</v-btn>
+            <v-btn elevation="3" class="center">Adventure Awaits</v-btn>
           </div>
         </v-col>
       </v-row>
@@ -54,7 +54,7 @@
               src="https://cdn.vuetifyjs.com/images/parallax/material.jpg"
             >
               <v-overlay absolute>
-                <h1 class="text-h1 text-center">
+                <h1 class="text-md-h1 text-sm-h2 text-h4 text-center">
                   Inscrease Awesomeness by <br />
                   256%
                 </h1>
@@ -83,13 +83,13 @@
 
       <!-- products -->
       <v-row class="display" justify="center">
-        <v-col md="4" sm="6">
+        <v-col cols="12" md="4" sm="6">
           <v-img
             :aspect-ratio="9 / 10"
             src="https://cdn.vuetifyjs.com/images/parallax/material.jpg"
           ></v-img
         ></v-col>
-        <v-col md="4" sm="6" align-self="center">
+        <v-col cols="12" md="4" sm="6" align-self="center">
           <h1>SeekXR Platform</h1>
           <h2>Enterprise 3D Asset Management</h2>
           <p>
